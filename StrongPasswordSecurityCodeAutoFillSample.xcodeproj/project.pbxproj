@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2771AFBD21B8ED0600B68E0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2771AFBC21B8ED0600B68E0C /* AppDelegate.swift */; };
-		2771AFBF21B8ED0600B68E0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2771AFBE21B8ED0600B68E0C /* ViewController.swift */; };
-		2771AFC221B8ED0600B68E0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2771AFC021B8ED0600B68E0C /* Main.storyboard */; };
-		2771AFC421B8ED0800B68E0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2771AFC321B8ED0800B68E0C /* Assets.xcassets */; };
-		2771AFC721B8ED0800B68E0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2771AFC521B8ED0800B68E0C /* LaunchScreen.storyboard */; };
+		272DB54221B9043800BFA794 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2771AFBC21B8ED0600B68E0C /* AppDelegate.swift */; };
+		272DB54321B9043800BFA794 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2771AFBE21B8ED0600B68E0C /* ViewController.swift */; };
+		272DB54421B9048200BFA794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2771AFC021B8ED0600B68E0C /* Main.storyboard */; };
+		272DB54521B9048500BFA794 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2771AFC521B8ED0800B68E0C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2771AFB921B8ED0600B68E0C /* StrongPasswordSecurityCodeAutoFillSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrongPasswordSecurityCodeAutoFillSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2771AFBC21B8ED0600B68E0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2771AFBE21B8ED0600B68E0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2771AFC121B8ED0600B68E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2771AFC321B8ED0800B68E0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2771AFC621B8ED0800B68E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2771AFC821B8ED0800B68E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2771AFCE21B8F85B00B68E0C /* StrongPasswordSecurityCodeAutoFillSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StrongPasswordSecurityCodeAutoFillSample.entitlements; sourceTree = "<group>"; };
+		2771B01521B9007F00B68E0C /* StrongPasswordSecurityCodeAutoFillSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrongPasswordSecurityCodeAutoFillSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2771AFB621B8ED0600B68E0C /* Frameworks */ = {
+		2771B01221B9007F00B68E0C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,18 +35,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		272DB54621B9080500BFA794 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2771AFB021B8ED0600B68E0C = {
 			isa = PBXGroup;
 			children = (
 				2771AFBB21B8ED0600B68E0C /* StrongPasswordSecurityCodeAutoFillSample */,
 				2771AFBA21B8ED0600B68E0C /* Products */,
+				272DB54621B9080500BFA794 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		2771AFBA21B8ED0600B68E0C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2771AFB921B8ED0600B68E0C /* StrongPasswordSecurityCodeAutoFillSample.app */,
+				2771B01521B9007F00B68E0C /* StrongPasswordSecurityCodeAutoFillSample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +62,7 @@
 		2771AFBB21B8ED0600B68E0C /* StrongPasswordSecurityCodeAutoFillSample */ = {
 			isa = PBXGroup;
 			children = (
+				2771AFCE21B8F85B00B68E0C /* StrongPasswordSecurityCodeAutoFillSample.entitlements */,
 				2771AFBC21B8ED0600B68E0C /* AppDelegate.swift */,
 				2771AFBE21B8ED0600B68E0C /* ViewController.swift */,
 				2771AFC021B8ED0600B68E0C /* Main.storyboard */,
@@ -67,13 +76,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2771AFB821B8ED0600B68E0C /* StrongPasswordSecurityCodeAutoFillSample */ = {
+		2771B01421B9007F00B68E0C /* StrongPasswordSecurityCodeAutoFillSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2771AFCB21B8ED0800B68E0C /* Build configuration list for PBXNativeTarget "StrongPasswordSecurityCodeAutoFillSample" */;
+			buildConfigurationList = 2771B02421B9008000B68E0C /* Build configuration list for PBXNativeTarget "StrongPasswordSecurityCodeAutoFillSample" */;
 			buildPhases = (
-				2771AFB521B8ED0600B68E0C /* Sources */,
-				2771AFB621B8ED0600B68E0C /* Frameworks */,
-				2771AFB721B8ED0600B68E0C /* Resources */,
+				2771B01121B9007F00B68E0C /* Sources */,
+				2771B01221B9007F00B68E0C /* Frameworks */,
+				2771B01321B9007F00B68E0C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -81,7 +90,7 @@
 			);
 			name = StrongPasswordSecurityCodeAutoFillSample;
 			productName = StrongPasswordSecurityCodeAutoFillSample;
-			productReference = 2771AFB921B8ED0600B68E0C /* StrongPasswordSecurityCodeAutoFillSample.app */;
+			productReference = 2771B01521B9007F00B68E0C /* StrongPasswordSecurityCodeAutoFillSample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -94,8 +103,28 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = koutalou;
 				TargetAttributes = {
-					2771AFB821B8ED0600B68E0C = {
+					2771B01421B9007F00B68E0C = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.AutoFillCredentialProvider = {
+								enabled = 0;
+							};
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -112,31 +141,30 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2771AFB821B8ED0600B68E0C /* StrongPasswordSecurityCodeAutoFillSample */,
+				2771B01421B9007F00B68E0C /* StrongPasswordSecurityCodeAutoFillSample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2771AFB721B8ED0600B68E0C /* Resources */ = {
+		2771B01321B9007F00B68E0C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2771AFC721B8ED0800B68E0C /* LaunchScreen.storyboard in Resources */,
-				2771AFC421B8ED0800B68E0C /* Assets.xcassets in Resources */,
-				2771AFC221B8ED0600B68E0C /* Main.storyboard in Resources */,
+				272DB54421B9048200BFA794 /* Main.storyboard in Resources */,
+				272DB54521B9048500BFA794 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2771AFB521B8ED0600B68E0C /* Sources */ = {
+		2771B01121B9007F00B68E0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2771AFBF21B8ED0600B68E0C /* ViewController.swift in Sources */,
-				2771AFBD21B8ED0600B68E0C /* AppDelegate.swift in Sources */,
+				272DB54321B9043800BFA794 /* ViewController.swift in Sources */,
+				272DB54221B9043800BFA794 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,36 +306,38 @@
 			};
 			name = Release;
 		};
-		2771AFCC21B8ED0800B68E0C /* Debug */ = {
+		2771B02521B9008000B68E0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = StrongPasswordSecurityCodeAutoFillSample/StrongPasswordSecurityCodeAutoFillSample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = H384Y529P5;
 				INFOPLIST_FILE = StrongPasswordSecurityCodeAutoFillSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.koutalou.StrongPasswordSecurityCodeAutoFillSample;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.koutalou.strong-security-autofill-sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		2771AFCD21B8ED0800B68E0C /* Release */ = {
+		2771B02621B9008000B68E0C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = StrongPasswordSecurityCodeAutoFillSample/StrongPasswordSecurityCodeAutoFillSample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = H384Y529P5;
 				INFOPLIST_FILE = StrongPasswordSecurityCodeAutoFillSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.koutalou.StrongPasswordSecurityCodeAutoFillSample;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.koutalou.strong-security-autofill-sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -326,11 +356,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2771AFCB21B8ED0800B68E0C /* Build configuration list for PBXNativeTarget "StrongPasswordSecurityCodeAutoFillSample" */ = {
+		2771B02421B9008000B68E0C /* Build configuration list for PBXNativeTarget "StrongPasswordSecurityCodeAutoFillSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2771AFCC21B8ED0800B68E0C /* Debug */,
-				2771AFCD21B8ED0800B68E0C /* Release */,
+				2771B02521B9008000B68E0C /* Debug */,
+				2771B02621B9008000B68E0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
