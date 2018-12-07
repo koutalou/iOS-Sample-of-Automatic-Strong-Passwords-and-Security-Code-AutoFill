@@ -1,4 +1,4 @@
-# iOS-Sample-of-Automatic-Strong-Passwords-and-Security-Code-AutoFill
+## iOS Sample of Automatic Strong Passwords and Security Code AutoFill
 Sample of Automatic Strong Passwords and Security Code AutoFill
 
 This is sample of WWDC2018 session 204 Automatic Strong Passwords and Security Code AutoFill
